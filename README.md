@@ -155,9 +155,22 @@ Snow-pole-based-vehicle-localization/
 │   Python cache files (not required for execution)
 │
 └── README.md
-    Project description, setup instructions, and usage notes
+│    Project description, setup instructions, and usage notes
+│
+└──  SYSTEM_CONFIGURATION.txt
+Detailed hardware, software, and environment configuration used to conduct all experiments
 
 ```
+---
+## System Configuration
+
+All experiments in this repository were conducted on a Linux-based workstation running **Ubuntu 22.04.5 LTS** with GPU acceleration.
+The system includes an **Intel Xeon Platinum CPU**, an **NVIDIA L40 GPU**, and a **Conda-managed Python environment**, ensuring reproducibility of the reported results.
+
+A detailed and complete description of the hardware, operating system, software toolchain, and execution environment is provided in the file:
+
+SYSTEM_CONFIGURATION.txt
+
 ---
 ## Data Description
 
